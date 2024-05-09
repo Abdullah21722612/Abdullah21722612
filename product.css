@@ -97,6 +97,7 @@ height: 37px;
     overflow-y: hidden;
     top: 50px;
     left: 0px;
+    z-index: 1;
   }
   .nav > .nav-links > a {
     display: block;
@@ -142,16 +143,7 @@ height: 37px;
   height: 100%;
   display: block;
   padding: 40px;
-}
-
-.nav label {
-  opacity: 0.5; /* Initial opacity for visibility */
-  position: absolute;
-  cursor: pointer;
-  color: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  margin-top: 29%;
-  font-size: 12px; /* Adjust font size as needed */
+  z-index: 2;
 }
 
 .nav label:hover {
